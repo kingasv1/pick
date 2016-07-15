@@ -39,7 +39,6 @@
 						<input name='pwd' ng-model='login.pwd' required placeholder="{{ 'password' | langTranslate: appConvertedLang['password'] }}" class='color-yellow' type='password' />
 						<img class='input-icon icon-20' src='img/icons/lock.png'/>
 					</div>
-					<input ng-click='doLogin(login_form)'  class='btn bg-yellow color-white m-top-20 big-font' type='button' value="{{ 'SIGN IN' | langTranslate: appConvertedLang['SIGN_IN'] }}" /> 
 					<div class='text-center m-top-20'>
 						<a href='' class='color-white ' >{{ 'Forgot Password ?' | langTranslate: appConvertedLang['Forgot_Password'] }}</a>
 					</div>
@@ -49,6 +48,11 @@
 	</div>
 
 	<div class='color-white text-center net-error' >{{ 'No network connection!' | langTranslate: appConvertedLang['No_network_connection'] }}</div>	
+    
+    <div class = "tabs tack">
+   <a class = "tab-item" ng-click='doLogin(login_form)' id='signup-redirect-btn'>
+      Login
+   </a>
   </ion-content>
  
 </ion-modal-view>
