@@ -2,9 +2,10 @@
 =================*/
 
 .bg-yellow{ background-color: #F2C21E; }
-.bg-main{ background-color: #F2C21E; }
-.bg-black{ background-image: url('../img/screen-hdpi-portrait.png');}
+.bg-main{ background-image: url('../img/screen-hdpi-portrait.png'); }
+.bg-black{ background-color: #000;}
 .bg-white{background-color: #fff;}
+.tack{background-color: #1798f3;}
 
 .bg-dark{ background-color: #161616 !important;}
 .bg-dark1{ background-color: #2e2f32 !important;}
