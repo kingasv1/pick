@@ -1,7 +1,7 @@
 /* BG COLOR 
 =================*/
 
-.bg-yellow{ background-color: #F2C21E; }
+.bg-yellow{ background-color: #1798f3; }
 .bg-main{ background-image: url('../img/screen-hdpi-portrait.png'); }
 .bg-black{ background-color: #000;}
 .bg-white{background-color: #fff;}
@@ -16,7 +16,7 @@
 .bg-grey{  background-color: #212224}
 
 /* common color */
-.color-yellow{ color:  #F2C21E !important;}
+.color-yellow{ color:  #1798f3 !important;}
 .color-gery{ color: #929292 !important }
 .color-d-gery{ color: #4d4d4d !important }
 
@@ -79,7 +79,7 @@
 
 .popup-buttons.row {}
 
-.popup-buttons .button {border: 1px solid #1C1C1C !important; color: #F2C21E !important; background-color:#444444 !important; border-radius: 5px !important; }
+.popup-buttons .button {border: 1px solid #1C1C1C !important; color: #1798f3 !important; background-color:#444444 !important; border-radius: 5px !important; }
 
 
 
