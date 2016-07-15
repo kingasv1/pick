@@ -82,14 +82,17 @@
 						<input name='c_pwd' ng-model='signUp.c_pwd' placeholder="{{ 'Confirm password' | langTranslate: appConvertedLang['Conform_password'] }}" class='color-yellow' type='password' required/>
 						<img class='input-icon icon-20' src='img/icons/lockTick.png'/>
 					</div>
-					
-					<input ng-click='do_signUp(sign_up_form)'  class='btn bg-yellow color-white big-font m-top-20' type='button' value="{{ 'SIGN UP' | langTranslate: appConvertedLang['SIGN_UP'] }}" /> 
-					
 				</div>	
 			</div>
 		</div>
 	</div>
-	<div class='color-white text-center net-error' >{{ 'No network connection!' | langTranslate: appConvertedLang['No_network_connection'] }}</div>	
+	<div class='color-white text-center net-error' >{{ 'No network connection!' | langTranslate: appConvertedLang['No_network_connection'] }}</div>
+
+<div class = "tabs tack">
+   <a class = "tab-item" ng-click='do_signUp(sign_up_form)' id='signup-redirect-btn'>
+      Login
+   </a>
+    </div>
   </ion-content>
  
 </ion-modal-view>
