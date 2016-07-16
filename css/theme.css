@@ -7,13 +7,13 @@
 .bg-white{background-color: #fff;}
 .tack{background-color: #1798f3;}
 
-.bg-dark{ background-color: #161616 !important;}
-.bg-dark1{ background-color: #2e2f32 !important;}
-.bg-dark2{background-color: #1c1c1c !important;}
-.bg-light{background-color: #38393D !important;}
+.bg-dark{ background-color: #1798f3 !important;}
+.bg-dark1{ background-color: #1798f3 !important;}
+.bg-dark2{background-color: #1798f3 !important;}
+.bg-light{background-color: #1798f3 !important;}
 
 .color-white {color: #fff !important;}
-.bg-grey{  background-color: #212224}
+.bg-grey{  background-color: #1798f3}
 
 /* common color */
 .color-yellow{ color:  #fff !important;}
