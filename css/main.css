@@ -58,10 +58,10 @@
 #menu-list .wrap-it{ padding: 0 0 0 15px;border-bottom: 8px solid #1b1b1d; }
 /* #menu-list{ height: 100%;} */
 
-#menu-list .item{  border: none; border-bottom: 1px solid #161616; }
+#menu-list .item{  border: none; border-bottom: 1px solid #1798f3; }
 #menu-list .wrap-it .item{ padding-top: 12px !important; padding-bottom: 12px !important;}
-a.active-menu{color: #1798f3 !important;}
-a.active-menu *{color: #1798f3 !important;}
+a.active-menu{color: #fff !important;}
+a.active-menu *{color: #000 !important;}
 .no-border{ border: none !important;}
 
 #profile-box{ margin-top: 30px;}
