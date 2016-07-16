@@ -16,9 +16,11 @@
 .bg-grey{  background-color: #212224}
 
 /* common color */
-.color-yellow{ color:  #1798f3 !important;}
+.color-yellow{ color:  #fff !important;}
 .color-gery{ color: #929292 !important }
 .color-d-gery{ color: #4d4d4d !important }
+.color-y{ color:  #1798f3 !important;}
+
 
 .test-h{height: 40px}
 
